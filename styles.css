@@ -57,7 +57,7 @@ div.section {
 
 
 .div2 {
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -93,8 +93,26 @@ div.section {
 
 
 .div3 {
-    background-color: #1f2937;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.div3 .quote{
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.div3 .quote-author{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+
 .div4 {
-    background-color: lightblue;
+    background-color: white;
 }
