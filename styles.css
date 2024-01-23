@@ -10,7 +10,7 @@ div.section {
     flex: 1 1 500px;
 }
 .div-content {
-    padding: 0 200px;
+    margin: 0 200px;
 }
 
 .div1 {
@@ -115,4 +115,15 @@ div.section {
 
 .div4 {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div4 .action-box {
+    background-color: #3882f6;
+    flex: 1;
+    display: flex;
+    height: 200px;
+
 }
