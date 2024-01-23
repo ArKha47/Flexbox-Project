@@ -7,23 +7,18 @@ body {
     flex-direction: column;
 }
 div.section {
-    display: flex;
     flex: 1 1 500px;
 }
 .div-content {
     padding: 0 200px;
-    display: flex;
 }
 
-
-.div1 .div-content {
-    flex-direction: column;
-}
 .div1 {
     flex-direction: column;
     background-color: #1f2937;
     color: #f9faf8;
 }
+
 .div1 .header-link {
     color: #f9faf8;
     margin-left: 20px;
@@ -32,13 +27,11 @@ div.section {
     margin-left: auto;
 }
 .div1 .header {
-    flex: 1 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .div1 .hero {
-    flex: 1;
     display: flex;
     margin-top: 5%;
     gap: 10em;
@@ -63,25 +56,39 @@ div.section {
 }
 
 
-.div2 .div-content{
-    flex-direction: column;
-}
 .div2 {
     background-color: lightblue;
+    display: flex;
     flex-direction: column;
 }
 .div2 .gallery-header {
-    flex: 1;
     display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-end;
+
 }
 .div2 .gallery-content{
-    flex: 1;
     display: flex;
+    flex: 5;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 .div2 .gallery-item {
-    flex: 1;
-    height:100px;
-    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 .gallery-item-photo {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.div2 .gallery-item-text{
 }
 
 
